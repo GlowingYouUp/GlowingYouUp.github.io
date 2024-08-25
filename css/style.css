@@ -40,7 +40,6 @@ header{
 }
 .logo{
     display: flex;
-    position: absolute;
     justify-content: space-between;
     align-items: center;
 }
@@ -597,18 +596,17 @@ footer h4{
 
 }
 @media only screen and (min-width: 1200px){
+    header{
+        justify-content: space-around;
+    }
     header .fa-bars{
         display: none;
     }
     nav{
         background-color: transparent;
-        display: flex;
         height: fit-content;
         position: static;
         width: fit-content;
-        top: 0;
-        width: 100%;
-        justify-content: end;
 
     }
     nav ul{
