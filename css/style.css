@@ -539,6 +539,24 @@ footer h4{
     header .fa-bars{
         display: none;
     }
+    nav{
+        background-color: transparent;
+        display: flex;
+        height: fit-content;
+        position: static;
+        width: fit-content;
+        top: 0;
+        width: 100%;
+        justify-content: end;
+
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        margin-right: 50px;
+
+
+    }
     main h1{
         width: 80%;
     }
@@ -599,24 +617,7 @@ footer h4{
 
 }
 @media only screen and (min-width: 1200px){
-    nav{
-        background-color: transparent;
-        display: flex;
-        height: fit-content;
-        position: static;
-        width: fit-content;
-        top: 0;
-        width: 100%;
-        justify-content: end;
-
-    }
-    nav ul{
-        display: flex;
-        flex-direction: row;
-        margin-right: 50px;
-
-
-    }
+    
     /* Blog container */
     .blog-item h3{
         width: 70%;
