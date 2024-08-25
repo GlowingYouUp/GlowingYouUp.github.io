@@ -523,7 +523,26 @@ footer h4{
     }
     }
 @media only screen and (min-width:900px){
+    header{
+        justify-content: space-around;
+    }
+    header .fa-bars{
+        display: none;
+    }
+    nav{
+        background-color: transparent;
+        height: fit-content;
+        position: static;
+        width: fit-content;
 
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        margin-right: 50px;
+
+
+    }
     main{
         background-color: var(--text-color);
         width: 70%;
@@ -596,26 +615,7 @@ footer h4{
 
 }
 @media only screen and (min-width: 1200px){
-    header{
-        justify-content: space-around;
-    }
-    header .fa-bars{
-        display: none;
-    }
-    nav{
-        background-color: transparent;
-        height: fit-content;
-        position: static;
-        width: fit-content;
 
-    }
-    nav ul{
-        display: flex;
-        flex-direction: row;
-        margin-right: 50px;
-
-
-    }
     /* Blog container */
     .blog-item h3{
         width: 70%;
