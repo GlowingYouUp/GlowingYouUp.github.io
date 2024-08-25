@@ -52,12 +52,12 @@ header{
 .logo{
     color: var(--text-color);
 }
-.fa-bars{
+header .fa-bars{
     position: absolute;
     left: 20px;
     font-size: 25px;
     color: var(--text-color);}
-.fa-bars:hover{
+header .fa-bars:hover{
     cursor: pointer;
     color: var(--hover-color);
 }
@@ -536,8 +536,8 @@ footer h4{
     .bl-nav-container{
         width: 90%;
     }
-    .fa-bars{
-        display: none !important;
+    header .fa-bars{
+        display: none;
     }
     main h1{
         width: 80%;
